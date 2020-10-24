@@ -1,0 +1,14 @@
+CS498 - MP3
+
+q1 - This code smell is "Duplicated Code."  We can apply the "Extract Method" refactoring method.
+
+
+q3 - This code smell is "Feature Envy."  We can apply the "Move" refactoring method.
+
+
+q4 - I removed this duplicated code through my own manual version of "Extract Method."  Essentially, I put these repeated lines in a 
+	 for loop, and made a dummy variable that was set if this new inner loop reached the break statement.  If it did, then this 
+	 dummy variable was set to true and then an if statement is used after to break the outer loop, which is the one we wanted to break.
+	 
+	 
+q6 - I chose to eliminate the duplicated code through the "Extract method..." refactoring.
